@@ -1,0 +1,20 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    .count{
+        margin: 0 auto;
+            @media(max-width:768px){
+                font-size: 30px;
+            }
+            font-family: 'PT Sans', sans-serif;
+            font-size: 48px;
+            color: rgb(107, 106, 105);
+            font-weight: 700;
+        }
+}

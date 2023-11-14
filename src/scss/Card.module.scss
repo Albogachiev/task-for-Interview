@@ -1,0 +1,37 @@
+.cardContainer{
+    width: 330px;
+    margin-top: 25px;
+    background-color: rgb(221, 222, 231);
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    img{
+        height: 200px;
+        margin-top: 20px;
+       box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.3);
+    }
+    .cardText{
+        width: 320px;
+        margin-top: 30px;
+        .categori{
+            font-family: 'PT Sans', sans-serif;
+            color: rgb(109, 109, 108);
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        .title{
+            font-family: 'PT Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 18px;
+        }
+        .author{
+            color: rgb(109, 109, 108);
+            margin-top: 11px;
+            font-size: 15px;
+        }
+    }
+}
